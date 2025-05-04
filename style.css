@@ -51,9 +51,7 @@ html, body{
     width:50%;
     position: relative;
 }
-.mobile-image{
-display: none;
-}
+
 .hero-image::after{
     content: '';
     width: 100%;
@@ -121,7 +119,7 @@ margin-top: 6px;
     }
     .img-container{
         display: block;
-        width:375px;
+        width:100%;
         height: 200px;
         position: relative;
     }
